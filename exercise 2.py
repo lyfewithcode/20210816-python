@@ -12,11 +12,11 @@ nilai = 95
 
 if nilai >= 88:
    print('A')
-elif nilai >= 77 and usia < 88:
+elif nilai >= 77 and nilai < 88:
    print('B')
-elif nilai >= 60 and usia < 77:
+elif nilai >= 60 and nilai < 77:
    print('C')
-elif nilai >= 45 and usia < 60:
+elif nilai >= 45 and nilai < 60:
    print('D')
 else:
    print('E')
