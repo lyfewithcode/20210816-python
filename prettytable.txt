@@ -1,0 +1,14 @@
+#install module prettytable dahulu agar tampilan list menjadi lebih rapi
+
+#kita tak dapat memodifikasi data pada pretty table (hanya menampilkan)
+
+#masuk ke C:\Users\user\AppData\Local\Programs\Python\Python39\Scripts
+
+#shift + klik kanan -> open powershell window here
+
+untuk folder "AppData" hidden, jadi harus ditampilkan dahulu "hidden foldernya"
+
+#cari environtment varibles -> path -> new
+masukkan lokasi folder tadi C:\Users\user\AppData\Local\Programs\Python\Python39\Scripts
+
+#pada cmd ketik "pip.exe" jika berhasil ketik "pip install PTable"

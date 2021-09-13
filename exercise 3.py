@@ -5,6 +5,9 @@ arr_siswa = [
         ["Bob", 85, 70, 60, 90]
     ]
 
+print("------------------------------------------------------------")
+print(" No. Nama        N.Tugas N.Kuis N.UTS N.UAS NilaiAkhir Grade")
+print("------------------------------------------------------------")
 
 for i in range(0, len(arr_siswa)):
     # print(i)
@@ -36,10 +39,6 @@ for i in range(0, len(arr_siswa)):
         else:
             print('E')
     
-    print("------------------------------------------------------------")
-    print(" No. Nama        N.Tugas N.Kuis N.UTS N.UAS NilaiAkhir Grade")
-    print("------------------------------------------------------------")
-
 
     print(f'| {i+1} | {arr_siswa[i][0]} \t | {arr_siswa[i][1]}   | {arr_siswa[i][2]}   | {arr_siswa[i][3]}  | {arr_siswa[i][4]}  | {n_akhir}')
     grade()
